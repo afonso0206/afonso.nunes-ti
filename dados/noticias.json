@@ -30,6 +30,47 @@
     "destaque": true
   },
   {
+    "id": "2026-08-23-teste-de-publicacao-com-textos-e-imagens",
+    "data": "2026-08-23",
+    "categoria": "Homologação",
+    "titulo": "Teste de publicação com textos e imagens",
+    "resumo": "Matéria temporária criada para validar o novo sistema de publicação de notícias, incluindo capa, textos e imagens intercaladas.",
+    "conteudo": "Esta é uma matéria temporária criada para homologar o novo sistema de atualizações profissionais. O objetivo deste primeiro bloco é verificar a apresentação dos parágrafos antes da inserção de uma imagem dentro da notícia.\n\nApós a primeira imagem, este segundo bloco confirma que a matéria pode continuar normalmente com novos parágrafos. O conteúdo da notícia deixa de ser uma estrutura fixa e passa a ser composto livremente por blocos ordenáveis.\n\nEste último bloco encerra a matéria de homologação. O teste demonstra que textos e imagens podem ser combinados livremente, mantendo a ordem editorial definida durante o cadastro e permitindo a construção de notícias mais completas e visualmente organizadas.",
+    "status": "Teste",
+    "destaque": true,
+    "blocos": [
+      {
+        "tipo": "texto",
+        "texto": "Esta é uma matéria temporária criada para homologar o novo sistema de atualizações profissionais. O objetivo deste primeiro bloco é verificar a apresentação dos parágrafos antes da inserção de uma imagem dentro da notícia."
+      },
+      {
+        "tipo": "imagem",
+        "src": "assets/images/noticias/2026-08-23-teste-de-publicacao-com-textos-e-imagens-corpo-mt63o69g.webp",
+        "alt": "Imagem interna utilizada para testar a composição da notícia",
+        "legenda": "Primeira imagem inserida entre os blocos de texto da matéria de homologação."
+      },
+      {
+        "tipo": "texto",
+        "texto": "Após a primeira imagem, este segundo bloco confirma que a matéria pode continuar normalmente com novos parágrafos. O conteúdo da notícia deixa de ser uma estrutura fixa e passa a ser composto livremente por blocos ordenáveis."
+      },
+      {
+        "tipo": "imagem",
+        "src": "assets/images/noticias/2026-08-23-teste-de-publicacao-com-textos-e-imagens-corpo-mt63s2s3.webp",
+        "alt": "Segunda imagem utilizada na homologação da composição da notícia",
+        "legenda": "Segunda imagem interna, utilizada para validar a continuidade da matéria após novos blocos de conteúdo."
+      },
+      {
+        "tipo": "texto",
+        "texto": "Este último bloco encerra a matéria de homologação. O teste demonstra que textos e imagens podem ser combinados livremente, mantendo a ordem editorial definida durante o cadastro e permitindo a construção de notícias mais completas e visualmente organizadas."
+      }
+    ],
+    "imagem": {
+      "src": "assets/images/noticias/2026-08-23-teste-de-publicacao-com-textos-e-imagens-capa-mt63ibfy.webp",
+      "alt": "Imagem de capa utilizada na homologação do sistema de notícias",
+      "legenda": "Teste da imagem principal da matéria."
+    }
+  },
+  {
     "id": "2026-08-13-audiovisual-esmu",
     "data": "2026-08-13",
     "categoria": "Entrega",
