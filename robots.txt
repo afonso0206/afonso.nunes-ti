@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://afonso0206.github.io/afonso-nunes-ti/sitemap.xml
+
+Sitemap: https://afonso0206.github.io/afonso.nunes-ti/sitemap.xml
