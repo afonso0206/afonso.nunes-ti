@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "titulo": "Conectando pessoas e tecnologia",
+    "categoria": "Inovação",
+    "resumo": "Tecnologia aplicada para aproximar pessoas, processos e soluções inteligentes.",
+    "link": "noticias.html",
+    "botao": "Saiba mais",
+    "alt": "Mão humana e mão robótica conectadas por uma interface digital futurista.",
+    "imagem": "assets/images/slides/2026-08-23-conectando-pessoas-e-tecnologia.webp"
+  },
+  {
+    "titulo": "Tecnologia, análise e desenvolvimento",
+    "categoria": "Desenvolvimento",
+    "resumo": "Tecnologia aplicada à análise, automação de processos e desenvolvimento de soluções digitais.",
+    "link": "projetos.html",
+    "botao": "Conheça os projetos",
+    "alt": "Robô tecnológico analisando informações, gráficos e dados em ambiente digital.",
+    "imagem": "assets/images/slides/2026-08-23-tecnologia-analise-e-desenvolvimento.webp"
+  },
+  {
+    "titulo": "Da evolução tecnológica à inteligência artificial",
+    "categoria": "Tecnologia",
+    "resumo": "A evolução da computação transforma ferramentas, processos e a forma como desenvolvemos novas soluções.",
+    "link": "especialidades.html",
+    "botao": "Minhas especialidades",
+    "alt": "Representação da evolução tecnológica, das primeiras máquinas aos sistemas modernos de inteligência artificial.",
+    "imagem": "assets/images/slides/2026-08-23-da-evolucao-tecnologica-a-inteligencia-artificial.webp"
+  },
+  {
+    "titulo": "Inteligência artificial e transformação digital",
+    "categoria": "Inteligência Artificial",
+    "resumo": "Inteligência artificial, dados e automação ampliando possibilidades para criar soluções tecnológicas mais eficientes.",
+    "link": "especialidades.html",
+    "botao": "Minhas especialidades",
+    "alt": "Pessoa integrada a interfaces digitais, redes de dados e elementos visuais de inteligência artificial.",
+    "imagem": "assets/images/slides/2026-08-23-inteligencia-artificial-e-transformacao-digital.webp"
+  },
+  {
+    "titulo": "Tecnologia, experiência e inovação",
+    "categoria": "Perfil profissional",
+    "resumo": "Experiência em tecnologia da informação aliada ao desenvolvimento de sistemas, infraestrutura, automação e novas tecnologias.",
+    "link": "index.html",
+    "botao": "Conheça meu perfil",
+    "alt": "Afonso Nunes representado com corpo robótico em cenário tecnológico futurista relacionado à inteligência artificial.",
+    "imagem": "assets/images/slides/2026-08-23-tecnologia-experiencia-e-inovacao.webp"
+  }
+]
