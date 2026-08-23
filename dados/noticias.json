@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2026-08-23-site-profissional",
+    "data": "2026-08-23",
+    "categoria": "Marco profissional",
+    "titulo": "Novo site profissional publicado no GitHub Pages",
+    "resumo": "Portfólio profissional publicado com hospedagem gratuita, HTTPS e versionamento completo em Git/GitHub.",
+    "conteudo": "O site passa a centralizar projetos, especialidades, manutenção, trajetória profissional e atualizações de carreira em uma estrutura pública e versionada.",
+    "status": "Concluído",
+    "destaque": true
+  },
+  {
+    "id": "2026-08-23-bolsas-pos-design",
+    "data": "2026-08-23",
+    "categoria": "Desenvolvimento",
+    "titulo": "Sistema Bolsas Pós-Design preparado para implantação",
+    "resumo": "Projeto estruturado, versionado em Git e preparado para a etapa de deploy e validação operacional.",
+    "conteudo": "A próxima etapa é a implantação no ambiente de produção e a verificação do funcionamento real do sistema com os usuários responsáveis.",
+    "status": "Pronto para deploy",
+    "destaque": true
+  },
+  {
+    "id": "2026-08-23-patrimonio-esmu",
+    "data": "2026-08-23",
+    "categoria": "Projeto em andamento",
+    "titulo": "Patrimônio ESMU segue como prioridade de desenvolvimento",
+    "resumo": "Sistema de inventário e gestão patrimonial em evolução, com foco em rastreabilidade, histórico, importações e auditoria.",
+    "conteudo": "O objetivo é concluir o ciclo de desenvolvimento, homologação, produção e versionamento remoto do projeto.",
+    "status": "Em desenvolvimento",
+    "destaque": true
+  },
+  {
+    "id": "2026-08-13-audiovisual-esmu",
+    "data": "2026-08-13",
+    "categoria": "Entrega",
+    "titulo": "Sistema Audiovisual ESMU alcança versão de produção",
+    "resumo": "Modernização do sistema concluída e publicada com controle de empréstimos, itens, salas e relatórios gerenciais.",
+    "conteudo": "A entrega consolidou uma nova versão da aplicação, com organização de código, documentação e operação em ambiente institucional.",
+    "status": "Em produção",
+    "destaque": false
+  }
+]
