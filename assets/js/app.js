@@ -1,9 +1,35 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Atualizar ano no footer
     const yearEl = document.getElementById('year') || document.getElementById('current-year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    // Carregar estilos e atalhos da área de atualizações profissionais na página inicial.
+    // Carrossel de destaques visuais no início da página.
+    if (!document.querySelector('link[href="assets/css/slides.css"]')) {
+        const slidesCss = document.createElement('link');
+        slidesCss.rel = 'stylesheet';
+        slidesCss.href = 'assets/css/slides.css';
+        document.head.appendChild(slidesCss);
+    }
+    const hero = document.getElementById('inicio');
+    if (hero && !document.getElementById('spotlight')) {
+        const spotlight = document.createElement('section');
+        spotlight.id = 'spotlight';
+        spotlight.className = 'spotlight';
+        spotlight.setAttribute('aria-label', 'Destaques em imagens');
+        spotlight.innerHTML = `
+            <div class="spotlight-shell">
+                <div class="spotlight-track" aria-live="polite"></div>
+                <button class="spotlight-control spotlight-prev" type="button" aria-label="Destaque anterior">‹</button>
+                <button class="spotlight-control spotlight-next" type="button" aria-label="Próximo destaque">›</button>
+                <div class="spotlight-dots" aria-label="Selecionar destaque"></div>
+                <button class="spotlight-pause" type="button" aria-pressed="false">Ⅱ Pausar</button>
+            </div>`;
+        hero.insertAdjacentElement('beforebegin', spotlight);
+        const slidesScript = document.createElement('script');
+        slidesScript.src = 'assets/js/slides.js';
+        document.body.appendChild(slidesScript);
+    }
+
+    // Área de atualizações profissionais.
     if (!document.querySelector('link[href="assets/css/noticias.css"]')) {
         const newsCss = document.createElement('link');
         newsCss.rel = 'stylesheet';
@@ -43,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(newsScript);
     }
 
-    // Menu Mobile
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.getElementById('main-nav');
     if (menuBtn && nav) {
@@ -60,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Formulários: envio protegido até configuração explícita de um endpoint
     document.querySelectorAll('form').forEach(form => {
         form.addEventListener('submit', (e) => {
             if (form.dataset.formDisabled === 'true' || !form.action) {
@@ -76,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Animação de entrada suave ao rolar
     const observer = new IntersectionObserver((entries, obs) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
