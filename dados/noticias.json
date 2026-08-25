@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-25-bolsas-pos-design-producao",
+    "data": "2026-08-25",
+    "categoria": "Entrega",
+    "titulo": "Bolsas Pós-Design v1.0.0 entra em produção na Escola de Design",
+    "resumo": "Sistema de gestão acadêmico-administrativa de bolsas da Pós-Graduação implantado e validado em produção na Escola de Design da UEMG.",
+    "conteudo": "A implantação em produção do Bolsas Pós-Design foi concluída em 25 de agosto de 2026. O sistema passou por homologação funcional, validação de segurança, testes de acesso, configuração do ambiente produtivo e preparação de contingência. A solução contempla gestão de programas, bolsistas, orientadores, agências de fomento, modalidades, editais, cotas, concessões, documentos, formulários, pendências, relatórios, usuários, permissões e auditoria. A infraestrutura possui backup diário automatizado, retenção dos três conjuntos válidos mais recentes, verificação SHA-256 e restore-test aprovado. O repositório Git remoto foi atualizado e a versão estável foi oficialmente publicada com a tag v1.0.0.",
+    "status": "Em produção",
+    "destaque": true
+  },
+  {
     "id": "2026-08-23-site-profissional",
     "data": "2026-08-23",
     "categoria": "Marco profissional",
